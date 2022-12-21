@@ -435,17 +435,18 @@
         </li>
       </ul>
     </div>
-    </div>
-
     <form class="email-subscription-form">
       <label for="email-subscription" >Підпишіться на розсилку</label>
         <input type="email" id="email-subscription" name="email-subscription"/>
-         
-        <button type="submit">Підписатися<svg class="icon-icon-send" width="24" height="24">
+    </form>     
+        <button class="submit-button" type="submit">Підписатися<svg class="icon-icon-send" width="24" height="24">
            <use href=".images/symbol-defs.svg#icon-icon-send">
            </use>
          </svg></button>
-    </form>
+    </div>
+
+    
+    
 
     
     
@@ -460,6 +461,32 @@
         </use>
       </svg>
     </button>
+
+    <form class="modal-form">Залиште свої дані, ми вам передзвонимо
+      <label for="user-name">Ім'я</label>
+        <input type="text" name="user-name" id="user-name"placeholder="">
+
+      <label for="user-tel">Телефон</label>
+      <input type="tel" name="user-tel" id="user-tel" placeholder="">
+      </label>
+
+      <label for="user-email">Пошта</label>
+      <input type="email" name="user-email" id="user-email" placeholder=""><svg width="15" height="12">
+        <use href="./images/symbol-defs.svg"></use></svg>
+
+      
+          <label>Коментар</label>
+          <textarea name="feedback" rows="5" placeholder="Введіть текст..."></textarea>
+
+      <label>
+              <input type="checkbox" name="hobby" value="music" checked >
+      </label>
+            <p>Погоджуюся з розсилкою та приймаю<span>Умови договору</span></p>
+           
+      </label>
+    </form>
+   </div>
+    
   </div>
 
 

@@ -362,6 +362,18 @@ fill: currentColor;
     
 }
 
+.modal-form {
+    width: 528px;
+    height: 581px;
+    
+    display: flex;
+    flex-direction: column ;
+    align-items: baseline;
+    
+    padding: 40px;
+
+}
+
 
 /* quality descripion*/
 .section-occupation {
@@ -883,6 +895,7 @@ footer {
     width: 1200px;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
    
 
     
@@ -971,6 +984,7 @@ footer > a {
     width: 210px;
     justify-content: center;
     align-self: flex-start;
+  
 }
 .footer-company-contacts {
     width: 231px;
@@ -1016,6 +1030,16 @@ footer > a {
     
 }
 
+.email-subscription-form {
+    width: 207px;
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-button {
+    width:200px;
+    height: 50px;
+}
 
 
 /* our clients*/
