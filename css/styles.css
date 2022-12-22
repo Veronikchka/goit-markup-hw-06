@@ -320,7 +320,7 @@ fill: currentColor;
     max-width: 528px;
     height: 100%;
     max-height:581px;
-    padding: 8px;
+   
     background-color: var(--color-bckgr-secondary);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -343,9 +343,9 @@ fill: currentColor;
 }
 
 .close-icon-space {
+    margin: 8px;
     position: absolute;
     
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -363,15 +363,128 @@ fill: currentColor;
 }
 
 .modal-form {
-    width: 528px;
-    height: 581px;
-    
-    display: flex;
-    flex-direction: column ;
-    align-items: baseline;
-    
+        width: 100%;
     padding: 40px;
 
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.form-field label {
+        
+    margin-bottom: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    
+    color: #757575;
+} 
+
+
+.form-field input {
+
+    width: 100%;
+    
+    margin-right: 0px;
+    padding: 13px;
+
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+
+.form-field textarea {
+    margin-top: 0;
+    margin:0;
+    padding: 12px 16px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+
+}
+
+.form-field textarea::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    
+    color: rgba(117, 117, 117, 0.5);
+}
+
+.form-field-checbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.form-field-checbox input {
+    margin-right: 8px;
+   
+}
+
+
+.form-field-checbox label {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+}
+
+
+.form-field-checbox span {
+
+    color:#2196F3 ;
+    text-decoration:underline 1px;
+}
+
+.submit-service-btn {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
+   
+   
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-background-action);
+
+
+}
+
+.modal-form-title {
+    
+    margin:0;
+    margin-bottom: 12px;
+
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
 }
 
 
