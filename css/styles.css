@@ -328,14 +328,14 @@ fill: currentColor;
     display:flex;
     justify-content: end;
     
-  
+
 }
 
 
 .backdrop.is-hidden .modal {
     transform: translate(-50%, -50%) scale(0,7);
-    
    
+
 }
 
 .backdrop.is-hidden {
