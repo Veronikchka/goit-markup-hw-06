@@ -288,7 +288,7 @@ fill: currentColor;
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.06em;
     color: var(--color-background-action);
     
 
@@ -327,8 +327,11 @@ fill: currentColor;
 
     display:flex;
     justify-content: end;
+    
   
 }
+
+
 .backdrop.is-hidden .modal {
     transform: translate(-50%, -50%) scale(0,7);
     
@@ -437,6 +440,7 @@ fill:var(--color-button-hover);
     
     height: 40px;
     margin-right: 0px;
+    
     padding: 13px;
 
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -449,6 +453,10 @@ fill:var(--color-button-hover);
     transition-delay: 0s;
     transition-property: border-color, fill;
 
+}
+
+.user-input-text {
+    padding-left: 30px;
 }
 
 .user-input:placeholder-shown,
@@ -572,7 +580,7 @@ fill:var(--color-button-hover);
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.06em;
     color: var(--color-background-action);
 
 
@@ -633,7 +641,9 @@ fill:var(--color-button-hover);
     fill: #EEEEEE;
 } 
 
-
+.email-subscription-text {
+    color: #EEEEEE;
+}
 
 /* quality descripion*/
 .section-occupation {
@@ -973,7 +983,7 @@ button {
 
     line-height: 1.6;
     text-align: center;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.06em;
     color: var(--color-text-primary);
     padding: 6px 22px;
 
@@ -1296,7 +1306,8 @@ footer > a {
 }
 
 .email-subscription-form input::placeholder {
-    color: rgba(255, 255, 255, 0.6);;
+    color: rgba(255, 255, 255, 0.6);
+    
 }
 
 .submit-button {
@@ -1317,7 +1328,7 @@ footer > a {
     font-weight: 700;
     
     
-    letter-spacing: 0.03em;
+    letter-spacing: 0.06em;
     color: var(--color-bckgr-secondary);
     background-color: #2196f3;
    
